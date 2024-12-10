@@ -5,7 +5,7 @@ services:
     image: android-emulator
     build: .
     ports:
-      - 4725:4725
+      - 4726:4725
     container_name: android
     environment:
       - APPIUM_PORT=4725
@@ -23,7 +23,7 @@ services:
     image: android-emulator
     build: .
     ports:
-      - 5900:5900
+      - 5901:5900
     container_name: VNC-Service
     environment: 
       - VNC_PASSWORD=123
